@@ -1,0 +1,58 @@
+﻿# VirtualBox
+*.vdi
+*.vbox
+*.vbox-prev
+*.vmdk
+*.ova
+
+# Vagrant
+.vagrant/
+vagrant_home/
+vbox-vms/
+
+# Packer
+packer_cache/
+packer_plugins/
+build/
+output-*/
+
+# Local build and distribution artifacts
+/devops-image/
+/iso/
+/releases/
+*.box
+*.iso
+
+# Logs
+*.log
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+private_key
+secrets/
+credentials/
+
+# Backup files
+*.broken-backup
+*.bak
+*.backup
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
